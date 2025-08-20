@@ -173,7 +173,7 @@ export default function CasinoLanding() {
           </div>
         )}
         <footer className="text-center text-sm text-gray-400 border-t border-white/10 pt-4">
-          Juego responsable +18 · © {new Date().getFullYear()} · Pepe Stars
+          Juego responsable +18 · © {new Date().getFullYear()} · Andres Bet
         </footer>
       </div>
     </div>
