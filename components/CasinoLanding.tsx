@@ -4,7 +4,15 @@ import Card from "./Card";
 import Image from "next/image";
 import Testimonial from "./Testimonial";
 
-const waLinks: string[] = ["https://wa.link/wwyj0g", "https://wa.link/pa8app", "https://wa.link/j6fy8r"]
+const waLinks: string[] = [
+  "https://wa.link/wwyj0g",
+  "https://wa.link/pa8app",
+  "https://wa.link/j6fy8r",
+];
+
+// https://wa.link/wwyj0g = 11 7623-4180
+// https://wa.link/pa8app = 11 7623-4188
+// https://wa.link/j6fy8r = 11 2193-9002
 
 export default function CasinoLanding() {
   const ctaRef = useRef<HTMLDivElement>(null);
@@ -63,14 +71,14 @@ export default function CasinoLanding() {
   return (
     <div className="relative min-h-dvh w-full overflow-hidden text-white font-sans">
       <div className="absolute inset-0 z-0">
-        <div className="h-full w-full bg-[url('/bg.webp')] bg-center bg-cover bg-no-repeat" />
-        <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-black to-neutral-800 opacity-80" />
+        <div className="h-full w-full bg-[url('/bg.avif')] bg-center bg-cover bg-no-repeat" />
+        <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-black to-neutral-800 opacity-90" />
       </div>
 
       <div className="relative z-10 px-4 py-10 max-w-screen-xl mx-auto">
         <div className="hero min-h-dvh">
-          <div className="flex justify-center mb-[-30px] mt-[-50px]">
-            <Image src="/logo.png" alt="logo" width={300} height={300} />
+          <div className="flex justify-center mb-2">
+            <Image src="/logo.png" alt="logo" width={250} height={250} />
           </div>
 
           <h1 className="text-3xl md:text-5xl font-bold text-center mb-6 ">
@@ -92,23 +100,23 @@ export default function CasinoLanding() {
         <div className="grid grid-cols-2 sm:grid-cols-3 max-w-4xl gap-3 sm:gap-5 mx-auto mb-6">
           <Card
             icon="💰"
-            title="50% en el primer d3posito"
-            description="Obtené un bonus del 50% en tu primer depósito."
+            title="20% en el primer d3posito"
+            description="Obtené un bonus del 20% en tu primer depósito."
           />
           <Card
             icon="🎯"
             title="Mínimo $2000"
-            description="Ingresá al ju3go con un d3pósito mínimo de $2000."
+            description="Ingresá al juego con un depósito mínimo de $2000."
           />
           <Card
             icon="💳"
             title="Aceptamos Mercado Pago"
-            description="Pag4 con comodidad usando tu billetera favorita."
+            description="Paga con comodidad usando tu billetera favorita."
           />
           <Card
-            icon="⏱️"
-            title="R3tiros 24hs"
-            description="Tu din3ro disponible en cualquier momento."
+            icon="💸"
+            title="Retiros hasta 1M por dia"
+            description="Retira en cualquier momento hasta 1 millon por persona!"
           />
           <Card
             icon="👥"
@@ -129,19 +137,19 @@ export default function CasinoLanding() {
 
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
             <Testimonial
-              name="Lucía R."
+              name="Sofía G."
               rating={5}
-              message="Muy confiable y fácil de usar. Me sorprendió lo rápido que procesan los r3tiros. ¡Volvería a jugar sin dudarlo!"
+              message="Lo que más me sorprendió es que podés retirar hasta 1 millón por día sin problemas. Muy confiable y la mejor atención que vi en mucho tiempo."
             />
             <Testimonial
-              name="Carlos M."
-              rating={4}
-              message="Tienen mucha variedad de ju3gos y responden rápido por WhatsApp. Lo recomiendo si estás buscando un c4sino serio."
+              name="Matías R."
+              rating={5}
+              message="La plataforma es súper segura, nunca tuve inconvenientes. La atención por WhatsApp es rapidísima y siempre responden con buena onda."
             />
             <Testimonial
-              name="Julián D."
+              name="Valentina C."
               rating={5}
-              message="Se gana seguido y los bonus realmente ayudan. Muy buena atención y p4gos puntuales. ¡Gran experiencia!"
+              message="Cumplen siempre, procesan rápido y podés sacar hasta 1M en el día. Para mí, la opción más confiable y con atención de primera."
             />
           </div>
         </section>

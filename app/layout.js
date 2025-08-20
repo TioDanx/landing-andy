@@ -8,11 +8,11 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    default: "Pepe Stars",
-    template: "%s | Pepe Stars",
+    default: "Andres Bet",
+    template: "%s | Andres Bet",
   },
   description:
-    "Sumate a Pepe Stars, el casino online con bonos exclusivos, retiros 24hs y miles de jugadores activos. ¡Obtené tu bono YA!",
+    "Sumate a Andres Bet, el casino online con bonos exclusivos, retiros 24hs y miles de jugadores activos. ¡Obtené tu bono YA!",
   keywords: [
     "casino online",
     "casino virtual",
@@ -21,7 +21,7 @@ export const metadata = {
     "casino online con retiros 24hs",
     "casino online con bonos",
     "casino online con bonos de bienvenida",
-    "Pepe Stars",
+    "Andres Bet",
     "bono de bienvenida",
     "casino con Mercado Pago",
     "retirar dinero 24hs",
@@ -30,17 +30,17 @@ export const metadata = {
     "casino confiable",
   ],
   openGraph: {
-    title: "Pepe Stars - Casino Online con Bonos y Retiros 24hs",
+    title: "Andres Bet - Casino Online con Bonos y Retiros 24hs",
     description:
-      "Sumate a Pepe Stars, el casino online con bonos exclusivos, retiros 24hs y miles de jugadores activos.",
-    url: "https://pepestarsnew.vercel.app",
-    siteName: "Pepe Stars",
+      "Sumate a Andres Bet, el casino online con bonos exclusivos, retiros 24hs y miles de jugadores activos.",
+    url: "https://andresbet.vercel.app",
+    siteName: "Andres Bet",
     images: [
       {
-        url: "/logo.webp",
+        url: "/logo.png",
         width: 800,
         height: 600,
-        alt: "Logo de Pepe Stars",
+        alt: "Logo de Andres Bet",
       },
     ],
     locale: "es_AR",
@@ -48,17 +48,17 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pepe Stars - Casino Online",
+    title: "Andres Bet - Casino Online",
     description:
-      "Bonos de bienvenida, retiros rápidos, +10.000 jugadores activos. ¡Probá tu suerte en Pepe Stars!",
-    images: ["/logo.webp"],
+      "Bonos de bienvenida, retiros rápidos, +10.000 jugadores activos. ¡Probá tu suerte en Andres Bet!",
+    images: ["/logo.png"],
   },
   icons: {
-    icon: "/logo.webp",
-    shortcut: "/logo.webp",
-    apple: "/logo.webp",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
-  metadataBase: new URL("https://pepestarsnew.vercel.app"),
+  metadataBase: new URL("https://andresbet.vercel.app"),
 };
 
 export default function RootLayout({ children }) {
