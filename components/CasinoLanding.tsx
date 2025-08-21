@@ -5,14 +5,14 @@ import Image from "next/image";
 import Testimonial from "./Testimonial";
 
 const waLinks: string[] = [
-  "https://wa.link/wwyj0g",
-  "https://wa.link/pa8app",
+  "https://wa.link/3w4ea0",
+  "https://wa.link/x32l2w",
   "https://wa.link/j6fy8r",
 ];
 
-// https://wa.link/wwyj0g = 11 7623-4180
-// https://wa.link/pa8app = 11 7623-4188
-// https://wa.link/j6fy8r = 11 2193-9002
+// https://wa.link/3w4ea0 = 11 2536-7338
+// https://wa.link/x32l2w = 223 553-4163
+// https://wa.link/p4c892 = 223 553-4168
 
 export default function CasinoLanding() {
   const ctaRef = useRef<HTMLDivElement>(null);
