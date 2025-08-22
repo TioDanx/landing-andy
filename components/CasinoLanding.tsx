@@ -7,7 +7,7 @@ import Testimonial from "./Testimonial";
 const waLinks: string[] = [
   "https://wa.link/3w4ea0",
   "https://wa.link/x32l2w",
-  "https://wa.link/j6fy8r",
+  "https://wa.link/p4c892",
 ];
 
 // https://wa.link/3w4ea0 = 11 2536-7338
